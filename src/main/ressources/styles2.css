@@ -1,0 +1,44 @@
+
+/* Title Label Styling */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff; /* White text for visibility */
+    -fx-alignment: CENTER;
+    -fx-padding: 10;
+}
+
+/* Styling for TextFields */
+.input-field {
+    -fx-pref-width: 300px;
+    -fx-padding: 10;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-font-size: 14px;
+    -fx-focus-color: #2196F3;
+}
+
+/* Styling for Button */
+.action-button {
+    -fx-pref-width: 200px;
+    -fx-padding: 10;
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+}
+
+/* Button Hover Effect */
+.action-button:hover {
+    -fx-background-color: #1976D2;
+}
+
+/* Add spacing for form fields */
+.vbox {
+    -fx-padding: 20;
+}

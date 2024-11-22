@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ShowEtudiant" prefWidth="800.0" prefHeight="600.0" styleClass="background-pane">
+
+    <!-- Background Image -->
+    <ImageView fx:id="backgroundImage" fitWidth="850" fitHeight="650.0" pickOnBounds="true" preserveRatio="false" />
+    
+    <!-- Main Content -->
+    <VBox spacing="20" alignment="CENTER" prefWidth="800.0" prefHeight="600.0" style="-fx-padding: 30;">
+        <!-- Title Label -->
+        <Label text="Liste des Etudiants" styleClass="title-label"/>
+        
+        <!-- Table -->
+        <TableView fx:id="clientTable" maxWidth="600.0" maxHeight="400.0" styleClass="modern-table">
+    <columns>
+        <TableColumn fx:id="nomColumn" text="Nom" prefWidth="150.0" />
+        <TableColumn fx:id="prenomColumn" text="Prenom" prefWidth="150.0" />
+        <TableColumn fx:id="cneColumn" text="CNE" prefWidth="150.0" />
+        <TableColumn fx:id="emailColumn" text="Email" prefWidth="150.0" />
+    </columns>
+</TableView>
+    </VBox>
+</AnchorPane>
